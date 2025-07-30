@@ -73,7 +73,7 @@ export default function LandingPage() {
 
       {/* Header */}
       <ScrollHeader>
-        <div className="container mx-auto px-6 py-4">
+        <div className="container mx-auto px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-violet-500 rounded-lg flex items-center justify-center">
