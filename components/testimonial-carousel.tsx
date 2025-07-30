@@ -84,6 +84,8 @@ export function TestimonialCarousel() {
           >
             <Card className="bg-white/5 backdrop-blur-sm border-white/10 overflow-hidden dark:bg-white/5 dark:backdrop-blur-sm dark:border-white/10 light:bg-white light:border-gray-200">
               <CardContent className="p-6 md:p-8">
+            <Card className="bg-white border-gray-200 dark:bg-white/5 dark:backdrop-blur-sm dark:border-white/10 overflow-hidden">
+              <CardContent className="p-6 md:p-8">
                 <div className="flex flex-col md:flex-row gap-6 items-start">
                   <div className="flex-shrink-0">
                     <Avatar className="h-16 w-16 border-2 border-purple-500/50">
