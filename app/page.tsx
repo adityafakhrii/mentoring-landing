@@ -117,6 +117,7 @@ export default function LandingPage() {
         <div className="container mx-auto text-center relative z-10">
           <ScrollAnimation>
             <Badge className="mb-6 bg-purple-600/20 text-purple-300 border-purple-500/30 px-4 py-2 text-sm">
+            <Badge className="mb-6 bg-purple-600/20 text-purple-300 border-purple-500/30 hover:bg-purple-600/30 hover:text-purple-200 hover:border-purple-400/50 px-4 py-2 text-sm">
               Batch 1 - Pendaftaran Terbuka
             </Badge>
           </ScrollAnimation>
@@ -172,6 +173,29 @@ export default function LandingPage() {
               </Button>
             </div>
           </ScrollAnimation>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button
+              asChild
+              size="lg"
+              className="bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white border-0 shadow-xl px-8 py-4 text-lg"
+            >
+              <a href="https://forms.gle/tnANAsCzMpc7M5cd7" target="_blank" rel="noopener noreferrer">
+                <ArrowRight className="mr-2 h-5 w-5" />
+                Daftar Sekarang
+              </a>
+            </Button>
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="border-purple-500/50 text-purple-300 hover:bg-purple-500/10 hover:text-purple-200 hover:border-purple-400/70 px-8 py-4 text-lg"
+            >
+              <a href="https://wa.me/6289580886080" target="_blank" rel="noopener noreferrer">
+                <MessageSquare className="mr-2 h-5 w-5" />
+                Tanya Mentor
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -315,7 +339,7 @@ export default function LandingPage() {
 
             <ScrollAnimation delay={0.8}>
               <div className="mt-8 text-center">
-                <Badge className="bg-green-600/20 text-green-300 border-green-500/30 px-4 py-2">
+                <Badge className="bg-green-600/20 text-green-300 border-green-500/30 hover:bg-green-600/30 hover:text-green-200 hover:border-green-400/50 px-4 py-2">
                   Semua sesi direkam & bisa ditonton ulang!
                 </Badge>
               </div>
@@ -499,7 +523,7 @@ export default function LandingPage() {
 
             <ScrollAnimation delay={0.4}>
               <div className="text-center">
-                <Badge className="bg-blue-600/20 text-blue-300 border-blue-500/30 px-4 py-2">
+                <Badge className="bg-blue-600/20 text-blue-300 border-blue-500/30 hover:bg-blue-600/30 hover:text-blue-200 hover:border-blue-400/50 px-4 py-2">
                   Bonus: Best practice Laravel, clean code, dan deployment tips
                 </Badge>
               </div>
@@ -534,7 +558,7 @@ export default function LandingPage() {
                       </p>
                       <div className="flex flex-wrap gap-2 justify-center md:justify-start mb-4">
                         {["Laravel", "Full Stack", "AI Integration", "Tech Speaker"].map((skill) => (
-                          <Badge key={skill} className="bg-purple-600/20 text-purple-300 border-purple-500/30">
+                          <Badge key={skill} className="bg-purple-600/20 text-purple-300 border-purple-500/30 hover:bg-purple-600/30 hover:text-purple-200 hover:border-purple-400/50">
                             {skill}
                           </Badge>
                         ))}
@@ -616,7 +640,7 @@ export default function LandingPage() {
                 >
                   {plan.popular && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                      <Badge className="bg-gradient-to-r from-purple-600 to-violet-600 text-white px-4 py-1">
+                      <Badge className="bg-gradient-to-r from-purple-600 to-violet-600 text-white hover:from-purple-700 hover:to-violet-700 px-4 py-1">
                         Paling Populer
                       </Badge>
                     </div>
