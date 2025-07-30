@@ -129,15 +129,25 @@ export default function LandingPage() {
 
           <ScrollAnimation delay={0.4}>
             <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Laravel & Soft Skill Intensive Mentoring
+              Laravel & Soft Skill Intensive Mentoring - Build Real Wedding Guest App
             </p>
           </ScrollAnimation>
 
           <ScrollAnimation delay={0.6}>
-            <p className="text-lg text-slate-400 mb-10 max-w-4xl mx-auto">
-              Program mentoring singkat, padat, tapi berdampak buat web developer pemula yang ingin naik level dengan
-              real project & upgrade soft skill!
-            </p>
+            <div className="mb-10 max-w-4xl mx-auto">
+              <p className="text-lg text-slate-400 mb-6">
+                Program mentoring singkat, padat, tapi berdampak buat web developer pemula yang ingin naik level dengan
+                real project & upgrade soft skill!
+              </p>
+              <div className="bg-white/5 backdrop-blur-sm border border-purple-500/30 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-purple-300 mb-3">Project yang Akan Kamu Bangun:</h3>
+                <p className="text-lg text-slate-200 font-medium mb-2">Aplikasi Tamu Resepsi Pernikahan</p>
+                <p className="text-slate-300">
+                  Aplikasi lengkap dengan fitur CRUD, QRIS payment integration, kamera check-in, search & filter, 
+                  plus admin panel yang siap pakai untuk bisnis wedding organizer!
+                </p>
+              </div>
+            </div>
           </ScrollAnimation>
 
           <ScrollAnimation delay={0.8}>
@@ -617,11 +627,11 @@ export default function LandingPage() {
                     </div>
                     <CardTitle className="text-slate-100 text-xl">{plan.name}</CardTitle>
                     <div className="space-y-2">
-                      <div className="flex items-center justify-center gap-2">
-                        <span className="text-3xl font-bold text-slate-100">{plan.price}</span>
+                      <div className="flex flex-col items-center gap-1">
                         {plan.originalPrice && (
                           <span className="text-lg text-slate-400 line-through">{plan.originalPrice}</span>
                         )}
+                        <span className="text-3xl font-bold text-slate-100">{plan.price}</span>
                       </div>
                       <CardDescription className="text-slate-400">{plan.description}</CardDescription>
                     </div>
@@ -735,9 +745,12 @@ export default function LandingPage() {
                 variant="outline"
                 size="lg"
                 className="border-purple-500/50 text-purple-300 hover:bg-purple-500/10 px-8 py-4 text-lg"
+                asChild
               >
-                <MessageSquare className="mr-2 h-5 w-5" />
-                Tanya Mentor
+                <a href="https://wa.me/6289580886080" target="_blank" rel="noopener noreferrer">
+                  <MessageSquare className="mr-2 h-5 w-5" />
+                  Tanya Mentor
+                </a>
               </Button>
             </div>
           </ScrollAnimation>
@@ -814,15 +827,15 @@ export default function LandingPage() {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2 text-slate-400">
                   <Mail className="w-4 h-4" />
-                  <span>mentor@adityafakhri.com</span>
+                  <span>adityafakhri03@gmail.com</span>
                 </li>
                 <li className="flex items-center gap-2 text-slate-400">
                   <Phone className="w-4 h-4" />
-                  <span>+62 xxx-xxxx-xxxx</span>
+                  <span>0895 8088 60080</span>
                 </li>
                 <li className="flex items-center gap-2 text-slate-400">
                   <MapPin className="w-4 h-4" />
-                  <span>Indonesia</span>
+                  <span>Bandung, Indonesia</span>
                 </li>
               </ul>
             </div>
