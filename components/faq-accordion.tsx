@@ -36,12 +36,12 @@ export function FaqAccordion() {
         <AccordionItem
           key={index}
           value={`item-${index}`}
-          className="border-b border-white/10 dark:border-white/10 light:border-gray-200"
+          className="border-b border-white/10"
         >
           <AccordionTrigger className="text-slate-100 dark:text-slate-100 light:text-gray-900 hover:text-purple-400 dark:hover:text-purple-400 light:hover:text-purple-600 text-left">
             {faq.question}
           </AccordionTrigger>
-          <AccordionContent className="text-slate-300 dark:text-slate-300 light:text-gray-700">
+          <AccordionContent className="text-slate-300">
             {faq.answer}
           </AccordionContent>
         </AccordionItem>

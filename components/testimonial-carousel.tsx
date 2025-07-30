@@ -107,13 +107,13 @@ export function TestimonialCarousel() {
                         />
                       ))}
                     </div>
-                    <p className="text-slate-300 dark:text-slate-300 light:text-gray-700 text-lg italic">
+                    <p className="text-slate-300 text-lg italic">
                       "{testimonials[current].content}"
                     </p>
                     <div>
-                      <h4 className="text-slate-100 dark:text-slate-100 light:text-gray-900 font-semibold flex items-center gap-2">
+                      <h4 className="text-slate-100 font-semibold flex items-center gap-2">
                         {testimonials[current].name}
-                        <span className="text-purple-400 dark:text-purple-400 light:text-purple-600">-</span>
+                        <span className="text-purple-400">-</span>
                         <a
                           href={`https://instagram.com/${testimonials[current].ig}`}
                           target="_blank"
@@ -123,7 +123,7 @@ export function TestimonialCarousel() {
                           @{testimonials[current].ig}
                         </a>
                       </h4>
-                      <p className="text-purple-400 dark:text-purple-400 light:text-purple-600">
+                      <p className="text-purple-400">
                         {testimonials[current].role}
                       </p>
                     </div>
@@ -140,7 +140,7 @@ export function TestimonialCarousel() {
           variant="outline"
           size="icon"
           onClick={prev}
-          className="bg-white/10 border-white/20 text-slate-200 hover:bg-white/20 dark:bg-white/10 dark:border-white/20 dark:text-slate-200 dark:hover:bg-white/20 light:bg-white light:border-gray-200 light:text-gray-700 light:hover:bg-gray-100"
+          className="bg-white/10 border-white/20 text-slate-200 hover:bg-white/20"
         >
           <ChevronLeft className="h-5 w-5" />
         </Button>
@@ -150,7 +150,7 @@ export function TestimonialCarousel() {
               key={index}
               onClick={() => setCurrent(index)}
               className={`w-2 h-2 rounded-full transition-all ${
-                index === current ? "bg-purple-500 w-6" : "bg-white/30 dark:bg-white/30 light:bg-gray-300"
+                index === current ? "bg-purple-500 w-6" : "bg-white/30"
               }`}
               aria-label={`Go to testimonial ${index + 1}`}
             />
@@ -160,7 +160,7 @@ export function TestimonialCarousel() {
           variant="outline"
           size="icon"
           onClick={next}
-          className="bg-white/10 border-white/20 text-slate-200 hover:bg-white/20 dark:bg-white/10 dark:border-white/20 dark:text-slate-200 dark:hover:bg-white/20 light:bg-white light:border-gray-200 light:text-gray-700 light:hover:bg-gray-100"
+          className="bg-white/10 border-white/20 text-slate-200 hover:bg-white/20"
         >
           <ChevronRight className="h-5 w-5" />
         </Button>
