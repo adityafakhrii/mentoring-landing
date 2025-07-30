@@ -34,7 +34,7 @@ export function MobileMenu({ links }: MobileMenuProps) {
             transition={{ duration: 0.2 }}
             className="fixed inset-0 top-16 z-50 bg-gradient-to-br from-[#4c1d95] via-[#1e1b4b] to-black p-4"
           >
-            <nav className="flex flex-col space-y-4 pt-4">
+            <nav className="flex flex-col space-y-4 pt-4 px-2">
               {links.map((link) => (
                 <a
                   key={link.href}

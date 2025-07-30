@@ -71,7 +71,7 @@ export function TestimonialCarousel() {
   }, [current, autoplay])
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto px-4">
+    <div className="relative w-full max-w-4xl mx-auto px-6">
       <div className="overflow-hidden relative">
         <AnimatePresence mode="wait">
           <motion.div

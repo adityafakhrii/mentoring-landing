@@ -73,7 +73,7 @@ export default function LandingPage() {
 
       {/* Header */}
       <ScrollHeader>
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-violet-500 rounded-lg flex items-center justify-center">
@@ -113,7 +113,7 @@ export default function LandingPage() {
       </ScrollHeader>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-4">
+      <section className="relative pt-32 pb-20 px-6">
         <div className="container mx-auto text-center relative z-10">
           <ScrollAnimation>
             <Badge className="mb-6 bg-purple-600/20 text-purple-300 border-purple-500/30 px-4 py-2 text-sm">
@@ -176,7 +176,7 @@ export default function LandingPage() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-4">
+      <section id="about" className="py-20 px-6">
         <div className="container mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -244,7 +244,7 @@ export default function LandingPage() {
       </section>
 
       {/* Timeline Section */}
-      <section id="timeline" className="py-20 px-4 bg-black/20">
+      <section id="timeline" className="py-20 px-6 bg-black/20">
         <div className="container mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -325,7 +325,7 @@ export default function LandingPage() {
       </section>
 
       {/* Target Audience */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-6">
         <div className="container mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -374,7 +374,7 @@ export default function LandingPage() {
       </section>
 
       {/* Benefits Section */}
-      <section id="benefits" className="py-20 px-4 bg-black/20">
+      <section id="benefits" className="py-20 px-6 bg-black/20">
         <div className="container mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -433,7 +433,7 @@ export default function LandingPage() {
       </section>
 
       {/* Case Study Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-6">
         <div className="container mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -509,7 +509,7 @@ export default function LandingPage() {
       </section>
 
       {/* Mentor Section */}
-      <section className="py-20 px-4 bg-black/20">
+      <section className="py-20 px-6 bg-black/20">
         <div className="container mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -552,7 +552,7 @@ export default function LandingPage() {
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing" className="py-20 px-4">
+      <section id="pricing" className="py-20 px-6">
         <div className="container mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -682,7 +682,7 @@ export default function LandingPage() {
       </section>
 
       {/* Testimonials */}
-      <section id="testimonials" className="py-20 px-4 bg-black/20">
+      <section id="testimonials" className="py-20 px-6 bg-black/20">
         <div className="container mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -698,7 +698,7 @@ export default function LandingPage() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 px-4">
+      <section id="faq" className="py-20 px-6">
         <div className="container mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -714,7 +714,7 @@ export default function LandingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-purple-900 via-violet-900 to-indigo-900">
+      <section className="py-20 px-6 bg-gradient-to-r from-purple-900 via-violet-900 to-indigo-900">
         <div className="container mx-auto text-center">
           <ScrollAnimation>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-100">
@@ -771,7 +771,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-4 bg-black/40 border-t border-white/10">
+      <footer className="py-12 px-6 bg-black/40 border-t border-white/10">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
