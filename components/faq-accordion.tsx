@@ -41,9 +41,6 @@ export function FaqAccordion() {
           <AccordionTrigger className="text-slate-100 dark:text-slate-100 light:text-gray-900 hover:text-purple-400 dark:hover:text-purple-400 light:hover:text-purple-600 text-left">
             {faq.question}
           </AccordionTrigger>
-          <AccordionTrigger className="text-gray-900 dark:text-slate-100 hover:text-purple-600 dark:hover:text-purple-400 text-left">
-            {faq.question}
-          </AccordionTrigger>
           <AccordionContent className="text-slate-300">
             {faq.answer}
           </AccordionContent>
